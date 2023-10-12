@@ -12,14 +12,14 @@ class OnboardingScreen extends StatefulWidget {
 class _OnboardingScreenState extends State<OnboardingScreen> {
   final List<Slide> slides = [
     Slide(
-      title: "Welcome to Finance Pal",
+      title: "Welcome to Jwala Finance Tracker",
       widgetTitle: LottieBuilder.asset(
         'assets/animation_lmjtdifi.json',
         width: 400,
         height: 300,
       ),
       description:
-      "Your personal finance tracker.\n\nTake control of your finances with ease and confidence, empowering you to achieve your financial goals",
+          "Your personal finance tracker.\n\nTake control of your finances with ease and confidence, empowering you to achieve your financial goals",
       backgroundColor: Colors.white, // White background
       styleTitle: TextStyle(
         color: Colors.blue, // Blue text color
@@ -40,7 +40,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         height: 280,
       ),
       description:
-      "Easily track how much you're spending each day, week, or month.\n\nSet budget limits and receive alerts when you exceed them.",
+          "Easily track how much you're spending each day, week, or month.\n\nSet budget limits and receive alerts when you exceed them.",
       backgroundColor: Colors.blue, // Blue background
       styleDescription: TextStyle(
         color: Colors.white, // White text color
@@ -60,7 +60,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         height: 300,
       ),
       description:
-      "Set budget limits and receive alerts when you exceed them.\n\nEasily set budget to spend each day, week, or month.",
+          "Set budget limits and receive alerts when you exceed them.\n\nEasily set budget to spend each day, week, or month.",
       backgroundColor: Colors.white, // White background
       styleDescription: TextStyle(
         color: Colors.blue, // White text color
@@ -164,5 +164,3 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     );
   }
 }
-
-

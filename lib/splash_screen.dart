@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             SizedBox(height: 20),
             Text(
-              'Finance Pal',
+              'Jwala Finance',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 50,
